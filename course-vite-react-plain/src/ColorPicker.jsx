@@ -12,7 +12,7 @@ function ColorPicker() {
   <div className="color-picker-container">
     <h1>Värivalitsin</h1>
     <div className="color-display" style={{backgroundColor: color}}>
-        <p>Valittu väri: {color}</p>
+        <p>Väri: {color}</p>
     </div>
     <label>Valitse väri:</label>
     <input type="color" value={color} onChange={handleColorChange}/>
